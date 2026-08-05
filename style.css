@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: #f8f3f0;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    border: 5px solid #be3e3e;
+    background: #fff;
+}
+
+section#ban {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+ul {
+    text-align: left;
+    padding-left: 1.4em;
+    margin: auto;
+}
+
+ul li::marker {
+  color: #be3e3e;
+}
+
+section > div {
+    width: min(240px, 100%);
+    margin: 1rem auto;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 0.5rem;
+}
+
+span {
+    display: block;
+    font-weight: bold;
+    margin-top: 0.25rem;
+}
+
+@media (min-width: 900px) {
+    section {
+        align-items: stretch;
+    }
+
+    section > div {
+        margin: 1rem auto;
+    }
+}

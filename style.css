@@ -31,7 +31,7 @@ section#seccarac {
     text-align: justify;
     display: block;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 section#seccarac > h3 {
@@ -48,12 +48,17 @@ section#seccarac > h3 {
 }
 
 main {
-    padding: 20px;
-    width: 90%;
-    height: auto;
+    width: 90vw;
+    height: 66vh;
     margin: 20px auto;
     border: 5px solid #be3e3e;
     background: #fff;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 #clima {
@@ -126,9 +131,9 @@ span {
 }
 
 footer > p {
-    margin-top: 20px;
+    margin-top: 25px;
     font-size: 1.5em;
     color: #a07d1f;
     text-align: justify;
-    margin-left: 5vw;
+    margin-left: 3vw;
 }
